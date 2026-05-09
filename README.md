@@ -122,25 +122,10 @@ Para probar la API en **Thunder Client**, primero se debe iniciar el servidor co
 **Captura de Thunder Client:**
 
 
-```md
-![Crear propietario](capturas/crear-propietario.png)
-```
 
-### 2. Listar propietarios
+![Crear propietario](./docs/crear-propietario.png)
 
-| Campo | Valor |
-|---|---|
-| Método | GET |
-| URL | `http://127.0.0.1:8000/propietarios/` |
-
-**Captura de Thunder Client:**
-
-
-```md
-![Listar propietarios](capturas/listar-propietarios.png)
-```
-
-### 3. Crear propiedad
+### 2. Crear propiedad
 
 | Campo | Valor |
 |---|---|
@@ -163,25 +148,12 @@ La propiedad muestra datos del propietario relacionado, como `propietario_nombre
 **Captura de Thunder Client:**
 
 
-```md
-![Crear propiedad](capturas/crear-propiedad.png)
-```
 
-### 4. Listar propiedades
-
-| Campo | Valor |
-|---|---|
-| Método | GET |
-| URL | `http://127.0.0.1:8000/propiedades/` |
-
-**Captura de Thunder Client:**
+![Crear propiedad](docs/crear-propiedad.png)
 
 
-```md
-![Listar propiedades](capturas/listar-propiedades.png)
-```
 
-### 5. Buscar propiedad
+### 3. Buscar propiedad
 
 | Campo | Valor |
 |---|---|
@@ -198,11 +170,11 @@ http://127.0.0.1:8000/propiedades/?search=departamento
 
 
 
-```md
-![Buscar propiedad](capturas/buscar-propiedad.png)
-```
 
-### 6. Editar propiedad
+![Buscar propiedad](docs/buscar-propiedad.png)
+
+
+### 4. Editar propiedad
 
 | Campo | Valor |
 |---|---|
@@ -219,11 +191,12 @@ http://127.0.0.1:8000/propiedades/?search=departamento
 **Captura de Thunder Client:**
 
 
-```md
-![Editar propiedad](capturas/editar-propiedad.png)
-```
 
-### 7. Eliminar propiedad
+![Editar propiedad](docs/editar-propiedad.png)
+
+
+
+### 5. Eliminar propiedad
 
 | Campo | Valor |
 |---|---|
@@ -233,9 +206,9 @@ http://127.0.0.1:8000/propiedades/?search=departamento
 **Captura de Thunder Client:**
 
 
-```md
-![Eliminar propiedad](capturas/eliminar-propiedad.png)
-```
+
+![Eliminar propiedad](docs/eliminar-propiedad.png)
+
 
 ## Tipos de propiedad permitidos
 
