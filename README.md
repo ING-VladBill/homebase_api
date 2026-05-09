@@ -75,21 +75,28 @@ http://127.0.0.1:8000/
 
 ## Endpoints disponibles
 
+En el enunciado, **Entidad 1** corresponde a **Propiedades** y **Entidad 2** corresponde a **Propietarios**. Por eso el proyecto tiene endpoints descriptivos y también endpoints compatibles con los nombres usados en la rúbrica.
+
+| Enunciado | Entidad del proyecto | Endpoint descriptivo | Endpoint de la rúbrica |
+|---|---|---|---|
+| Entidad 1 | Propiedades | `/propiedades/` | `/entidad1/` |
+| Entidad 2 | Propietarios | `/propietarios/` | `/entidad2/` |
+
 | Método | Endpoint | Descripción |
 |---|---|---|
-| GET | `/propiedades/` | Lista todas las propiedades. |
-| POST | `/propiedades/` | Crea una nueva propiedad. |
-| GET | `/propiedades/{id}/` | Muestra una propiedad específica. |
-| PUT | `/propiedades/{id}/` | Actualiza una propiedad completa. |
-| PATCH | `/propiedades/{id}/` | Actualiza parte de una propiedad. |
-| DELETE | `/propiedades/{id}/` | Elimina una propiedad. |
-| GET | `/propiedades/?search=texto` | Busca propiedades por dirección, tipo, descripción o propietario. |
-| GET | `/propietarios/` | Lista todos los propietarios. |
-| POST | `/propietarios/` | Crea un nuevo propietario. |
-| GET | `/propietarios/{id}/` | Muestra un propietario específico. |
-| PUT | `/propietarios/{id}/` | Actualiza un propietario completo. |
-| PATCH | `/propietarios/{id}/` | Actualiza parte de un propietario. |
-| DELETE | `/propietarios/{id}/` | Elimina un propietario. |
+| GET | `/entidad1/` o `/propiedades/` | Lista todas las propiedades. |
+| POST | `/entidad1/` o `/propiedades/` | Crea una nueva propiedad. |
+| GET | `/entidad1/{id}/` o `/propiedades/{id}/` | Muestra una propiedad específica. |
+| PUT | `/entidad1/{id}/` o `/propiedades/{id}/` | Actualiza una propiedad completa. |
+| PATCH | `/entidad1/{id}/` o `/propiedades/{id}/` | Actualiza parte de una propiedad. |
+| DELETE | `/entidad1/{id}/` o `/propiedades/{id}/` | Elimina una propiedad. |
+| GET | `/entidad1/?search=texto` o `/propiedades/?search=texto` | Busca propiedades por dirección, tipo, descripción o propietario. |
+| GET | `/entidad2/` o `/propietarios/` | Lista todos los propietarios y muestra sus propiedades asociadas. |
+| POST | `/entidad2/` o `/propietarios/` | Crea un nuevo propietario. |
+| GET | `/entidad2/{id}/` o `/propietarios/{id}/` | Muestra un propietario específico. |
+| PUT | `/entidad2/{id}/` o `/propietarios/{id}/` | Actualiza un propietario completo. |
+| PATCH | `/entidad2/{id}/` o `/propietarios/{id}/` | Actualiza parte de un propietario. |
+| DELETE | `/entidad2/{id}/` o `/propietarios/{id}/` | Elimina un propietario. |
 
 ## Ejemplos para probar en Thunder Client
 
