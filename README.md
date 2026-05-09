@@ -112,7 +112,7 @@ Para probar la API en **Thunder Client**, primero se debe iniciar el servidor co
 
 ```json
 {
-  "nombre": "William Jiménez",
+  "nombre": "William Julon",
   "documento_identidad": "76543210",
   "telefono": "987654321",
   "email": "william@example.com"
@@ -121,7 +121,6 @@ Para probar la API en **Thunder Client**, primero se debe iniciar el servidor co
 
 **Captura de Thunder Client:**
 
-> Pegar aquí la captura de la creación del propietario.
 
 ```md
 ![Crear propietario](capturas/crear-propietario.png)
@@ -136,7 +135,6 @@ Para probar la API en **Thunder Client**, primero se debe iniciar el servidor co
 
 **Captura de Thunder Client:**
 
-> Pegar aquí la captura del listado de propietarios.
 
 ```md
 ![Listar propietarios](capturas/listar-propietarios.png)
@@ -164,7 +162,6 @@ La propiedad muestra datos del propietario relacionado, como `propietario_nombre
 
 **Captura de Thunder Client:**
 
-> Pegar aquí la captura de la creación de la propiedad.
 
 ```md
 ![Crear propiedad](capturas/crear-propiedad.png)
@@ -179,7 +176,6 @@ La propiedad muestra datos del propietario relacionado, como `propietario_nombre
 
 **Captura de Thunder Client:**
 
-> Pegar aquí la captura del listado de propiedades.
 
 ```md
 ![Listar propiedades](capturas/listar-propiedades.png)
@@ -200,7 +196,7 @@ http://127.0.0.1:8000/propiedades/?search=departamento
 
 **Captura de Thunder Client:**
 
-> Pegar aquí la captura de la búsqueda.
+
 
 ```md
 ![Buscar propiedad](capturas/buscar-propiedad.png)
@@ -222,7 +218,6 @@ http://127.0.0.1:8000/propiedades/?search=departamento
 
 **Captura de Thunder Client:**
 
-> Pegar aquí la captura de la edición de la propiedad.
 
 ```md
 ![Editar propiedad](capturas/editar-propiedad.png)
@@ -237,7 +232,6 @@ http://127.0.0.1:8000/propiedades/?search=departamento
 
 **Captura de Thunder Client:**
 
-> Pegar aquí la captura de la eliminación de la propiedad.
 
 ```md
 ![Eliminar propiedad](capturas/eliminar-propiedad.png)
