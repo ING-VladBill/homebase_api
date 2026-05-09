@@ -90,8 +90,6 @@ http://127.0.0.1:8000/
 | PUT | `/propietarios/{id}/` | Actualiza un propietario completo. |
 | PATCH | `/propietarios/{id}/` | Actualiza parte de un propietario. |
 | DELETE | `/propietarios/{id}/` | Elimina un propietario. |
-| GET | `/entidad1/` | Alias para propiedades. |
-| GET | `/entidad2/` | Alias para propietarios. |
 
 ## Ejemplos para probar en Thunder Client
 
